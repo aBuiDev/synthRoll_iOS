@@ -31,7 +31,6 @@ class ViewController: UIViewController {
     }
     
     @objc func didTapRollButton() {
-        
         let randomValueOne = Int(arc4random_uniform(6))
         let randomValueTwo = Int(arc4random_uniform(6))
         let randomValueThree = Int(arc4random_uniform(6))
@@ -40,22 +39,13 @@ class ViewController: UIViewController {
         
         let synthRoll_navigationViewController = UINavigationController(rootViewController: cyberDiceViewController)
         synthRoll_navigationViewController.modalPresentationStyle = .fullScreen
+        synthRoll_navigationViewController.navigationBar.backgroundColor = UIColor.purple
         present(synthRoll_navigationViewController, animated: true)
     }
-
-
 }
 
-
-
-
-//    // Get the DiceViewController
-//    let controller: DiceViewController
-//    controller = storyboard?.instantiateViewController(withIdentifier: "DiceViewController") as! DiceViewController
-//
-//    // Set the two values to random numbers from 1 to 6
-//    controller.firstValue = randomDiceValue()
-//    controller.secondValue = randomDiceValue()
-//
-//    // Present the view Controller
-//    present(controller, animated: true, completion: nil)
+extension UINavigationController {
+    override open var shouldAutorotate: Bool {
+        return false
+    }
+}
