@@ -31,7 +31,13 @@ class ViewController: UIViewController {
     }
     
     @objc func didTapRollButton() {
-        let cyberDiceViewController = CyberDice_ViewController()
+        
+        let randomValueOne = Int(arc4random_uniform(6))
+        let randomValueTwo = Int(arc4random_uniform(6))
+        let randomValueThree = Int(arc4random_uniform(6))
+        
+        let cyberDiceViewController = CyberDice_ViewController(firstValue: randomValueOne, secondValue: randomValueTwo, thirdValue: randomValueThree)
+        
         let synthRoll_navigationViewController = UINavigationController(rootViewController: cyberDiceViewController)
         synthRoll_navigationViewController.modalPresentationStyle = .fullScreen
         present(synthRoll_navigationViewController, animated: true)
