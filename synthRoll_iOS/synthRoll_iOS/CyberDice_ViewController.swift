@@ -67,7 +67,10 @@ class CyberDice_ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.backgroundColor = UIColor.white
+        view.backgroundColor = UIColor(patternImage: UIImage(named: "sythnRoll_background")!)
+        view.contentMode = .scaleAspectFit
+        
+        // https://stackoverflow.com/questions/27153181/how-do-you-make-a-background-image-scale-to-screen-size-in-swift
 
         // Setup CyberDice Navigation ViewController
         self.title = "Rolled Cyber Dice"
