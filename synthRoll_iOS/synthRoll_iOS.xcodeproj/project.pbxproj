@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		09E2979626C8E76A00CCAB17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E2979526C8E76A00CCAB17 /* AppDelegate.swift */; };
 		09E2979826C8E76A00CCAB17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E2979726C8E76A00CCAB17 /* SceneDelegate.swift */; };
-		09E2979A26C8E76A00CCAB17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E2979926C8E76A00CCAB17 /* ViewController.swift */; };
+		09E2979A26C8E76A00CCAB17 /* SynthRoll_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E2979926C8E76A00CCAB17 /* SynthRoll_ViewController.swift */; };
 		09E2979D26C8E76A00CCAB17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09E2979B26C8E76A00CCAB17 /* Main.storyboard */; };
 		09E2979F26C8E76D00CCAB17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09E2979E26C8E76D00CCAB17 /* Assets.xcassets */; };
 		09E297A226C8E76D00CCAB17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09E297A026C8E76D00CCAB17 /* LaunchScreen.storyboard */; };
+		09E297AA26C8EB9400CCAB17 /* CyberDice_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E297A926C8EB9400CCAB17 /* CyberDice_ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		09E2979226C8E76A00CCAB17 /* synthRoll_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = synthRoll_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09E2979526C8E76A00CCAB17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09E2979726C8E76A00CCAB17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		09E2979926C8E76A00CCAB17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09E2979926C8E76A00CCAB17 /* SynthRoll_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynthRoll_ViewController.swift; sourceTree = "<group>"; };
 		09E2979C26C8E76A00CCAB17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09E2979E26C8E76D00CCAB17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09E297A126C8E76D00CCAB17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09E297A326C8E76D00CCAB17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09E297A926C8EB9400CCAB17 /* CyberDice_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyberDice_ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				09E2979526C8E76A00CCAB17 /* AppDelegate.swift */,
 				09E2979726C8E76A00CCAB17 /* SceneDelegate.swift */,
-				09E2979926C8E76A00CCAB17 /* ViewController.swift */,
+				09E2979926C8E76A00CCAB17 /* SynthRoll_ViewController.swift */,
 				09E2979B26C8E76A00CCAB17 /* Main.storyboard */,
 				09E2979E26C8E76D00CCAB17 /* Assets.xcassets */,
 				09E297A026C8E76D00CCAB17 /* LaunchScreen.storyboard */,
 				09E297A326C8E76D00CCAB17 /* Info.plist */,
+				09E297A926C8EB9400CCAB17 /* CyberDice_ViewController.swift */,
 			);
 			path = synthRoll_iOS;
 			sourceTree = "<group>";
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09E2979A26C8E76A00CCAB17 /* ViewController.swift in Sources */,
+				09E2979A26C8E76A00CCAB17 /* SynthRoll_ViewController.swift in Sources */,
+				09E297AA26C8EB9400CCAB17 /* CyberDice_ViewController.swift in Sources */,
 				09E2979626C8E76A00CCAB17 /* AppDelegate.swift in Sources */,
 				09E2979826C8E76A00CCAB17 /* SceneDelegate.swift in Sources */,
 			);
