@@ -36,20 +36,27 @@ class CyberDice_ViewController: UIViewController {
     
     private var backgroundImage: UIImageView = {
         let uiImageView = UIImageView(frame: .zero)
-        uiImageView.contentMode =  UIView.ContentMode.scaleAspectFill
+        uiImageView.contentMode = UIView.ContentMode.scaleAspectFill
         uiImageView.contentMode = .scaleToFill
-        uiImageView.translatesAutoresizingMaskIntoConstraints = false
         uiImageView.image = UIImage(named: "synthRoll_background")
         return uiImageView
     }()
     
-    private var rerollButton: UIButton {
+    private var rerollButton: UIButton = {
         let uiButton = UIButton()
-        uiButton.frame = CGRect(x: 100, y: 100, width: 100, height: 50)
+        uiButton.frame = CGRect(x: 0, y: 0, width: 100, height: 50)
         uiButton.setTitle("Reroll", for: .normal)
-        uiButton.setTitleColor(UIColor.red, for: .normal)
+        uiButton.setTitleColor(UIColor.white, for: .normal)
+        uiButton.backgroundColor = UIColor.systemPurple
         uiButton.addTarget(self, action: #selector(CyberDice_ViewController.didTapReroll), for: UIControl.Event.touchUpInside)
         return uiButton
+    }()
+    
+    private var backgroundView: UIImageView {
+        let uiImageView = UIImageView(frame: UIScreen.main.bounds)
+        uiImageView.image = UIImage(named: "sythnRoll_background")
+        uiImageView.contentMode = .scaleAspectFill
+        return uiImageView
     }
 
     
@@ -66,14 +73,14 @@ class CyberDice_ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        view.backgroundColor = UIColor(patternImage: UIImage(named: "sythnRoll_background")!)
-        view.contentMode = .scaleAspectFit
         
-        // https://stackoverflow.com/questions/27153181/how-do-you-make-a-background-image-scale-to-screen-size-in-swift
+        view.insertSubview(backgroundView, at: 0)
+        
+        rerollButton.center.x = view.center.x
+        rerollButton.center.y = view.center.y + 200
 
         // Setup CyberDice Navigation ViewController
-        self.title = "Rolled Cyber Dice"
+        self.title = "Cyber Dice"
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Return", style: .plain, target: self, action: #selector(dismissSelf))
         
         setupView()
@@ -83,7 +90,6 @@ class CyberDice_ViewController: UIViewController {
         view.addSubview(diceImage01)
         view.addSubview(diceImage02)
         view.addSubview(diceImage03)
-        
         view.addSubview(rerollButton)
     }
     

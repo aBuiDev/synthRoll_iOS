@@ -15,19 +15,21 @@ class ViewController: UIViewController {
         return uiView
     }
     
-    private var rollButton: UIButton {
+    private var rollButton: UIButton = {
         let uiButton = UIButton()
-        uiButton.frame = CGRect(x: 100, y: 100, width: 150, height: 50)
-        uiButton.setTitle("Roll Cyber Die", for: .normal)
-        uiButton.setTitleColor(UIColor.systemPink, for: .normal)
+        uiButton.frame = CGRect(x: 0, y: 0, width: 150, height: 50)
+        uiButton.setTitle("Roll Cyber Dice", for: .normal)
+        uiButton.setTitleColor(UIColor.white, for: .normal)
         uiButton.backgroundColor = UIColor.systemBlue
         uiButton.addTarget(self, action: #selector(ViewController.didTapRollButton), for: UIControl.Event.touchUpInside)
         return uiButton
-    }
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(rollButton)
+        rollButton.center.x = view.center.x
+        rollButton.center.y = view.center.y
     }
     
     @objc func didTapRollButton() {
@@ -40,6 +42,8 @@ class ViewController: UIViewController {
         let synthRoll_navigationViewController = UINavigationController(rootViewController: cyberDiceViewController)
         synthRoll_navigationViewController.modalPresentationStyle = .fullScreen
         synthRoll_navigationViewController.navigationBar.backgroundColor = UIColor.purple
+        synthRoll_navigationViewController.navigationBar.tintColor = .white
+        synthRoll_navigationViewController.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
         present(synthRoll_navigationViewController, animated: true)
     }
 }
