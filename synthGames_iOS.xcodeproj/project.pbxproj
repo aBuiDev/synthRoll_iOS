@@ -7,25 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0963EC76270AA40A00555B44 /* RandomDiceNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0963EC75270AA40A00555B44 /* RandomDiceNumber.swift */; };
+		0963EC78270AA73000555B44 /* CyberDiceGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0963EC77270AA73000555B44 /* CyberDiceGameViewController.swift */; };
+		09C35437270AC5BF00C22715 /* SynthGamesLobbyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C35436270AC5BF00C22715 /* SynthGamesLobbyViewModel.swift */; };
+		09C35439270AC88C00C22715 /* CyberDiceImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C35438270AC88C00C22715 /* CyberDiceImage.swift */; };
+		09C3543B270AD25B00C22715 /* CyberDiceGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C3543A270AD25B00C22715 /* CyberDiceGameViewModel.swift */; };
 		09E2979626C8E76A00CCAB17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E2979526C8E76A00CCAB17 /* AppDelegate.swift */; };
 		09E2979826C8E76A00CCAB17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E2979726C8E76A00CCAB17 /* SceneDelegate.swift */; };
-		09E2979A26C8E76A00CCAB17 /* SynthRoll_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E2979926C8E76A00CCAB17 /* SynthRoll_ViewController.swift */; };
+		09E2979A26C8E76A00CCAB17 /* SynthGamesLobbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E2979926C8E76A00CCAB17 /* SynthGamesLobbyViewController.swift */; };
 		09E2979D26C8E76A00CCAB17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09E2979B26C8E76A00CCAB17 /* Main.storyboard */; };
 		09E2979F26C8E76D00CCAB17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09E2979E26C8E76D00CCAB17 /* Assets.xcassets */; };
 		09E297A226C8E76D00CCAB17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09E297A026C8E76D00CCAB17 /* LaunchScreen.storyboard */; };
-		09E297AA26C8EB9400CCAB17 /* CyberDice_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E297A926C8EB9400CCAB17 /* CyberDice_ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		09E2979226C8E76A00CCAB17 /* synthRoll_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = synthRoll_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0963EC75270AA40A00555B44 /* RandomDiceNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomDiceNumber.swift; sourceTree = "<group>"; };
+		0963EC77270AA73000555B44 /* CyberDiceGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyberDiceGameViewController.swift; sourceTree = "<group>"; };
+		09C35436270AC5BF00C22715 /* SynthGamesLobbyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynthGamesLobbyViewModel.swift; sourceTree = "<group>"; };
+		09C35438270AC88C00C22715 /* CyberDiceImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyberDiceImage.swift; sourceTree = "<group>"; };
+		09C3543A270AD25B00C22715 /* CyberDiceGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyberDiceGameViewModel.swift; sourceTree = "<group>"; };
+		09E2979226C8E76A00CCAB17 /* synthGames_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = synthGames_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09E2979526C8E76A00CCAB17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09E2979726C8E76A00CCAB17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		09E2979926C8E76A00CCAB17 /* SynthRoll_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynthRoll_ViewController.swift; sourceTree = "<group>"; };
+		09E2979926C8E76A00CCAB17 /* SynthGamesLobbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynthGamesLobbyViewController.swift; sourceTree = "<group>"; };
 		09E2979C26C8E76A00CCAB17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09E2979E26C8E76D00CCAB17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09E297A126C8E76D00CCAB17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09E297A326C8E76D00CCAB17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		09E297A926C8EB9400CCAB17 /* CyberDice_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyberDice_ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +47,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0963EC72270AA3AC00555B44 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0963EC75270AA40A00555B44 /* RandomDiceNumber.swift */,
+				09C35438270AC88C00C22715 /* CyberDiceImage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0963EC73270AA3C700555B44 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0963EC77270AA73000555B44 /* CyberDiceGameViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0963EC74270AA3E700555B44 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				09C35436270AC5BF00C22715 /* SynthGamesLobbyViewModel.swift */,
+				09C3543A270AD25B00C22715 /* CyberDiceGameViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		09E2978926C8E76A00CCAB17 = {
 			isa = PBXGroup;
 			children = (
@@ -50,7 +84,7 @@
 		09E2979326C8E76A00CCAB17 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				09E2979226C8E76A00CCAB17 /* synthRoll_iOS.app */,
+				09E2979226C8E76A00CCAB17 /* synthGames_iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,14 +92,16 @@
 		09E2979426C8E76A00CCAB17 /* synthRoll_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				0963EC74270AA3E700555B44 /* ViewModel */,
+				0963EC73270AA3C700555B44 /* View */,
+				0963EC72270AA3AC00555B44 /* Model */,
 				09E2979526C8E76A00CCAB17 /* AppDelegate.swift */,
 				09E2979726C8E76A00CCAB17 /* SceneDelegate.swift */,
-				09E2979926C8E76A00CCAB17 /* SynthRoll_ViewController.swift */,
+				09E2979926C8E76A00CCAB17 /* SynthGamesLobbyViewController.swift */,
 				09E2979B26C8E76A00CCAB17 /* Main.storyboard */,
 				09E2979E26C8E76D00CCAB17 /* Assets.xcassets */,
 				09E297A026C8E76D00CCAB17 /* LaunchScreen.storyboard */,
 				09E297A326C8E76D00CCAB17 /* Info.plist */,
-				09E297A926C8EB9400CCAB17 /* CyberDice_ViewController.swift */,
 			);
 			path = synthRoll_iOS;
 			sourceTree = "<group>";
@@ -73,9 +109,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		09E2979126C8E76A00CCAB17 /* synthRoll_iOS */ = {
+		09E2979126C8E76A00CCAB17 /* synthGames_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 09E297A626C8E76D00CCAB17 /* Build configuration list for PBXNativeTarget "synthRoll_iOS" */;
+			buildConfigurationList = 09E297A626C8E76D00CCAB17 /* Build configuration list for PBXNativeTarget "synthGames_iOS" */;
 			buildPhases = (
 				09E2978E26C8E76A00CCAB17 /* Sources */,
 				09E2978F26C8E76A00CCAB17 /* Frameworks */,
@@ -85,9 +121,9 @@
 			);
 			dependencies = (
 			);
-			name = synthRoll_iOS;
+			name = synthGames_iOS;
 			productName = synthRoll_iOS;
-			productReference = 09E2979226C8E76A00CCAB17 /* synthRoll_iOS.app */;
+			productReference = 09E2979226C8E76A00CCAB17 /* synthGames_iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +140,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 09E2978D26C8E76A00CCAB17 /* Build configuration list for PBXProject "synthRoll_iOS" */;
+			buildConfigurationList = 09E2978D26C8E76A00CCAB17 /* Build configuration list for PBXProject "synthGames_iOS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,7 +153,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				09E2979126C8E76A00CCAB17 /* synthRoll_iOS */,
+				09E2979126C8E76A00CCAB17 /* synthGames_iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -140,9 +176,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09E2979A26C8E76A00CCAB17 /* SynthRoll_ViewController.swift in Sources */,
-				09E297AA26C8EB9400CCAB17 /* CyberDice_ViewController.swift in Sources */,
+				0963EC78270AA73000555B44 /* CyberDiceGameViewController.swift in Sources */,
+				09C3543B270AD25B00C22715 /* CyberDiceGameViewModel.swift in Sources */,
+				09E2979A26C8E76A00CCAB17 /* SynthGamesLobbyViewController.swift in Sources */,
+				09C35437270AC5BF00C22715 /* SynthGamesLobbyViewModel.swift in Sources */,
+				09C35439270AC88C00C22715 /* CyberDiceImage.swift in Sources */,
 				09E2979626C8E76A00CCAB17 /* AppDelegate.swift in Sources */,
+				0963EC76270AA40A00555B44 /* RandomDiceNumber.swift in Sources */,
 				09E2979826C8E76A00CCAB17 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,7 +338,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aBuiDev.synthRoll-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = synthGames_iOS;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -317,7 +357,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aBuiDev.synthRoll-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = synthGames_iOS;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -326,7 +366,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		09E2978D26C8E76A00CCAB17 /* Build configuration list for PBXProject "synthRoll_iOS" */ = {
+		09E2978D26C8E76A00CCAB17 /* Build configuration list for PBXProject "synthGames_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				09E297A426C8E76D00CCAB17 /* Debug */,
@@ -335,7 +375,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		09E297A626C8E76D00CCAB17 /* Build configuration list for PBXNativeTarget "synthRoll_iOS" */ = {
+		09E297A626C8E76D00CCAB17 /* Build configuration list for PBXNativeTarget "synthGames_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				09E297A726C8E76D00CCAB17 /* Debug */,

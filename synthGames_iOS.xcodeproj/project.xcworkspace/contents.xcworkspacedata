@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/abuidev/Desktop/synthRoll_iOS/synthGames_iOS.xcodeproj">
    </FileRef>
 </Workspace>
